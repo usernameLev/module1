@@ -182,13 +182,22 @@
     margin-left: 0;
   }
 
+  .header__main {
+    padding: 0 10px;
+  }
+
+  .header__main-btn {
+    width: 100%;
+  }
+
   .header__top {
     justify-content: space-around;
     margin-bottom  : 100px;
   }
 
   .header__main-title {
-    margin: 0 auto 50px;
+    font-size: 70px;
+    margin   : 0 auto 50px;
   }
 
   .header__main-desc {
