@@ -191,8 +191,8 @@
   }
 
   .header__top {
-    justify-content: space-around;
-    margin-bottom  : 100px;
+    justify-content: space-between;
+    margin         : 0 10px 100px;
   }
 
   .header__main-title {
@@ -216,7 +216,6 @@
   }
 
   .header__top {
-    padding      : 0 10px;
     margin-bottom: 50px;
   }
 
