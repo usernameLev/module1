@@ -9,6 +9,12 @@
   margin   : 0 auto;
 }
 
+.container-header {
+  max-width            : 1250px;
+  position             : relative;
+  margin               : 0 auto;
+}
+
 .logo {
   display: inline-block;
 }
@@ -34,10 +40,6 @@
 
 .menu__list-link--active {
   color: #212353;
-}
-
-.header__main {
-  position: relative;
 }
 
 .header__main-title {
@@ -116,11 +118,12 @@
 }
 
 .header__main-bg {
-  max-width         : 885px;
-  width             : 100%;
+  height            : 450px;
+  object-fit        : contain;
   position          : absolute;
-  top               : 100px;
-  right             : -130px;
+  right             : 0px;
+  bottom            : -90px;
+  margin-right      : 10px;
   animation-name    : movechange-bg;
   animation-duration: 3s;
 }
@@ -153,7 +156,7 @@
 
 
 /* ############ MEDIA ############ */
-@media (max-width: 1200px) {
+@media (max-width: 1250px) {
 
   .header__main,
   .header__top {
@@ -161,7 +164,7 @@
   }
 
   .header__main-bg {
-    width: 65%;
+    width: 50%;
   }
 }
 
