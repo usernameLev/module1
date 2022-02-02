@@ -10,9 +10,9 @@
 }
 
 .container-header {
-  max-width            : 1250px;
-  position             : relative;
-  margin               : 0 auto;
+  max-width: 1250px;
+  position : relative;
+  margin   : 0 auto;
 }
 
 .logo {
@@ -47,6 +47,7 @@
   font-size         : 80px;
   line-height       : 110%;
   font-weight       : 700;
+  color             : var(--title-color);
   animation-name    : movechange-title;
   animation-duration: 2s;
   margin-bottom     : 50px;

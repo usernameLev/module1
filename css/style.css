@@ -13,6 +13,6 @@ body {
   color      : #4B5D68;
 }
 
-.title-color {
-  color: #212353;
+:root {
+  --title-color: #212353;
 }

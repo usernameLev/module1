@@ -27,6 +27,7 @@
 }
 
 .footer__logo-title {
+  color      : var(--title-color);
   margin-left: 20px;
 }
 
@@ -43,11 +44,13 @@
 .address__adr {
   display      : inline-block;
   font-weight  : 500;
+  color        : var(--title-color);
   margin-bottom: 25px;
 }
 
 .address__contacts {
   font-weight: initial;
+  color      : var(--title-color);
 }
 
 .small__copy {
@@ -55,6 +58,7 @@
   font-size  : 12px;
   font-weight: initial;
   line-height: 200%;
+  color      : var(--title-color);
 }
 
 .socials {
@@ -64,6 +68,7 @@
 .socials__title {
   font-size    : 16px;
   font-weight  : 700;
+  color        : var(--title-color);
   margin-bottom: 40px;
 }
 
