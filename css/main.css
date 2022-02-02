@@ -557,7 +557,9 @@
   }
 
   .slider__img {
-    display: none;
+    position: absolute;
+    top     : 20px;
+    left    : 20px;
   }
 
   .slider__info {
@@ -565,14 +567,15 @@
   }
 
   .slider__title {
-    margin: 0px 0 5px;
+    margin: 0px 0 5px 100px;
   }
 
   .slider__item--main {
-    padding: 30px 20px 30px;
+    max-height: 280px;
+    padding   : 50px 20px 30px;
   }
 
   .slider__job {
-    margin-bottom: 20px;
+    margin-left: 100px;
   }
 }
