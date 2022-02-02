@@ -36,6 +36,7 @@
 }
 
 .address {
+  font-style   : normal;
   margin-bottom: 50px;
 }
 
@@ -45,9 +46,14 @@
   margin-bottom: 25px;
 }
 
+.address__contacts {
+  font-weight: initial;
+}
+
 .small__copy {
   display    : inline-block;
   font-size  : 12px;
+  font-weight: initial;
   line-height: 200%;
 }
 
