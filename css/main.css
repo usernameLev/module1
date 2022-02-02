@@ -264,7 +264,7 @@
 
 
 /* ############ MEDIA ############ */
-@media (max-width: 1200px) {
+@media (max-width: 1250px) {
   .main__top {
     margin: 0 10px 150px;
   }
