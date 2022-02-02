@@ -558,11 +558,12 @@
 
   .slider__img {
     position: absolute;
-    top     : 20px;
+    top     : 30px;
     left    : 20px;
   }
 
   .slider__info {
+    max-height : 170px;
     margin-left: 0px;
   }
 
@@ -572,7 +573,7 @@
 
   .slider__item--main {
     max-height: 280px;
-    padding   : 50px 20px 30px;
+    padding   : 60px 20px 30px;
   }
 
   .slider__job {
