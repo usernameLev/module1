@@ -80,7 +80,14 @@
   margin-left: 20px;
 }
 
+.socials__item svg ellipse {
+  transition: all .5s;
+}
 
+.socials__item:hover svg ellipse {
+  fill   : #9C69E2;
+  opacity: 1;
+}
 
 
 
