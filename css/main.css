@@ -34,7 +34,8 @@
 
 .main-top__desc {
   display           : block;
-  max-width         : 34%;
+  max-width         : 380px;
+  width             : 100%;
   line-height       : 160%;
   animation-name    : movechange-desc;
   animation-duration: 2.5s;
@@ -465,8 +466,7 @@
   }
 
   .main-top__desc {
-    max-width: 100%;
-    margin   : 0 auto 50px;
+    margin: 0 auto 50px;
   }
 
   .main-top__btn {
