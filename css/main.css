@@ -138,7 +138,7 @@
 
 .bank__content {
   max-width: 475px;
-  padding  : 30px 0;
+  padding  : 100px 0;
   margin   : auto 10px;
 }
 
@@ -212,6 +212,7 @@
 .features__top-desc {
   display    : block;
   max-width  : 586px;
+  width      : 100%;
   line-height: 160%;
   text-align : center;
   margin     : 0 auto 100px;
