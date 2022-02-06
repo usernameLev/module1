@@ -130,9 +130,15 @@
   margin-bottom        : 150px;
 }
 
+.bank__img {
+  width     : 100%;
+  height    : 100%;
+  object-fit: contain;
+}
+
 .bank__content {
   max-width: 475px;
-  width    : 100%;
+  padding  : 30px 0;
   margin   : auto 10px;
 }
 
@@ -147,7 +153,6 @@
 
 .bank__desc {
   display    : block;
-  max-width  : 380px;
   line-height: 160%;
 }
 
