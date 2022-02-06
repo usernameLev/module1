@@ -141,9 +141,8 @@
 }
 
 .bank__content {
-  max-width: 475px;
   padding  : 100px 0;
-  margin   : auto 10px auto 80px;
+  margin   : auto 90px auto 80px;
 }
 
 .bank__title {
@@ -421,6 +420,10 @@
 @media (max-width: 992px) {
   .bank__img {
     width: 100%;
+  }
+
+  .bank__content {
+    margin   : auto 20px auto 80px;
   }
 }
 
