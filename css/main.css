@@ -507,6 +507,7 @@
 
   .bank__content {
     max-width: initial;
+    padding  : 0;
   }
 
   .bank__title {
@@ -524,7 +525,7 @@
   }
 
   .features__top-desc {
-    margin : 0 auto 50px;
+    margin: 0 auto 50px;
   }
 
   .products {
@@ -561,7 +562,6 @@
   }
 
   .main-top__desc {
-    padding      : 0 10px;
     margin-bottom: 30px;
   }
 
