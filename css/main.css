@@ -143,7 +143,7 @@
 .bank__content {
   max-width: 475px;
   padding  : 100px 0;
-  margin   : auto 10px;
+  margin   : auto 10px auto 80px;
 }
 
 .bank__title {
