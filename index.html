@@ -24,15 +24,14 @@
 </head>
 
 <body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__container container">
 
-  <header class="header">
-    <div class="container">
-
-      <div class="header__top">
         <a class="logo" href="#">
           <img src="img/favicon.png" alt="Logo">
         </a>
-        <nav class="menu">
+        <nav class="header__menu menu">
           <ul class="menu__list">
             <li class="menu__list-item">
               <a class="menu__list-link menu__list-link--active" href="#">About</a>
@@ -46,247 +45,257 @@
           </ul>
         </nav>
       </div>
+    </header>
 
-      <div class="header__main">
-        <h1 class="header__main-title">Save your data storage here.</h1>
-        <span class="header__main-desc">
-          Data Warehouse is a data storage area that has been
-          tested for security, so you can store your data here
-          safely but not be afraid of being stolen by others.
-        </span>
-        <a class="header__main-btn btn" href="#features">Learn more</a>
+    <main class="main">
+      <div class="main__bg">
+
+        <div class="container">
+
+          <div class="main-top">
+            <h1 class="main-top__title">Save your data storage here.</h1>
+            <span class="main-top__desc">
+              Data Warehouse is a data storage area that has been
+              tested for security, so you can store your data here
+              safely but not be afraid of being stolen by others.
+            </span>
+            <a class="main-top__btn btn" href="#features">Learn more</a>
+          </div>
+
+        </div>
+
+        <div class="main-top__container-bg">
+          <img class="main-top__bg" src="img/header-bg.png" alt="header-bg">
+        </div>
+
       </div>
-
-    </div>
-    <div class="container-header">
-      <img class="header__main-bg" src="img/header-bg.png" alt="header-bg">
-    </div>
-  </header>
-
-  <main class="main">
-    <div class="container">
-
-      <div class="main__top">
-        <img class="main__top-img" src="img/main-top.png" alt="girl">
-        <div class="main__top-content">
-          <h2 class="main__top-title">We are a high-level data storage bank</h2>
-          <span class="main__top-desc">
-            The place to store various data that you can access at any time through the internet and where you can carry
-            it.
-            This very flexible storage area has a high level of security. To enter into your own data you must enter the
-            password that you created when you registered in this Data Warehouse.
-          </span>
+      <div class="container">
+        <div class="bank">
+          <img class="bank__img" src="img/main-top.png" alt="girl">
+          <div class="bank__content">
+            <h2 class="bank__title">We are a high-level data storage bank</h2>
+            <span class="bank__desc">
+              The place to store various data that you can access at any time through the internet and where you can
+              carry
+              it.
+              This very flexible storage area has a high level of security. To enter into your own data you must enter
+              the
+              password that you created when you registered in this Data Warehouse.
+            </span>
+          </div>
         </div>
+
+        <section class="features">
+
+          <div class="features__top">
+            <a id="features" href="#"></a>
+            <h2 class="features__top-title">Features</h2>
+            <span class="features__top-desc">
+              Some of the features and advantages that we provide for those of you who store data in this Data
+              Warehouse.
+            </span>
+          </div>
+
+          <div class="products">
+            <div class="products__item">
+              <div class="products__item-content products__item-content--search">
+                <div class="products_item-content-inner">
+                  <h3 class="products__item-title">Search Data</h3>
+                  <span class="products__item-desc">
+                    Don’t worry if your data is very large, the Data Warehoue provides a search engine, which is useful
+                    for making it easier to find data effectively saving time.
+                  </span>
+                  <a class="products__item-link" href="#"><span>Learn more</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="products__item">
+              <div class="products__item-content products__item-content--24-hours">
+                <div class="products_item-content-inner">
+                  <h3 class="products__item-title">24 Hours Access</h3>
+                  <span class="products__item-desc">
+                    Access is given 24 hours a full morning to night and
+                    meet again in the morning, giving you comfort when
+                    you need data when urgent.
+                  </span>
+                  <a class="products__item-link" href="#"><span>Learn more</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="products__item">
+              <div class="products__item-content products__item-content--print">
+                <div class="products_item-content-inner">
+                  <h3 class="products__item-title">Print Out</h3>
+                  <span class="products__item-desc">
+                    Print out service gives you convenience if someday
+                    you need print data, just edit it all and just print it.
+                  </span>
+                  <a class="products__item-link" href="#"><span>Learn more</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="products__item">
+              <div class="products__item-content products__item-content--security">
+                <div class="products_item-content-inner">
+                  <h3 class="products__item-title">Security Code</h3>
+                  <span class="products__item-desc">
+                    Data Security is one of our best facilities. Allows for your files
+                    to be safer. The file can be secured with a code or password that
+                    you created, so only you can open the file.
+                  </span>
+                  <a class="products__item-link" href="#"><span>Learn more</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="testimonials">
+          <div class="container__slider">
+            <div class="testimonials__wrapper">
+              <h2 class="testimonials__title">Testimonials</h2>
+              <ul class="slider">
+                <li class="slider__item slider__item--main">
+                  <div class="slider__img">
+                    <img src="img/john-fang.png" alt="John Fang">
+                  </div>
+                  <div class="slider__info">
+                    <h3 class="slider__title">John Fang</h3>
+                    <a class="slider__job" href="#">wordfang.com</a>
+                    <span class="slider__desc">
+                      Suspendisse ultrices at diam lectus nullam.
+                      Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet
+                      nulla.
+                    </span>
+                  </div>
+                </li>
+                <li class="slider__item">
+                  <div class="slider__img">
+                    <img src="img/jeny-doe.png" alt="Jeny Doe">
+                  </div>
+                  <div class="slider__info">
+                    <h3 class="slider__title">Jeny Doe</h3>
+                    <a class="slider__job" href="#">UX Engineer</a>
+                    <span class="slider__desc">
+                      Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor
+                    </span>
+                  </div>
+                </li>
+                <li class="slider__item">
+                  <div class="slider__img">
+                    <img src="img/william.png" alt="William">
+                  </div>
+                  <div class="slider__info">
+                    <h3 class="slider__title">William</h3>
+                    <a class="slider__job" href="#">Web Designer</a>
+                    <span class="slider__desc">
+                      Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor
+                    </span>
+                  </div>
+                </li>
+
+              </ul>
+              <div class="slider__buttons">
+                <ul class="buttons">
+                  <li><a class="buttons__btn buttons__btn--active" href="#"></a></li>
+                  <li><a class="buttons__btn" href="#"></a></li>
+                  <li><a class="buttons__btn" href="#"></a></li>
+                  <li><a class="buttons__btn" href="#"></a></li>
+                </ul>
+                <ul class="arrows">
+                  <li><a href="#">
+                      <img class="arrows__l" src="img/slider-arrowL.png" alt="">
+                    </a></li>
+                  <li><a href="#">
+                      <img class="arrows__r" src="img/slider-arrowR.png" alt="">
+                    </a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
       </div>
+    </main>
 
-      <section class="features">
+    <footer class="footer">
+      <hr class="footer__line">
+      <div class="container">
 
-        <div class="features__top">
-          <a id="features" href="#"></a>
-          <h2 class="features__top-title">Features</h2>
-          <span class="features__top-desc">
-            Some of the features and advantages that we provide for those of you who store data in this Data Warehouse.
-          </span>
-        </div>
+        <div class="footer__inner">
+          <div class="footer__info">
 
-        <div class="products">
-          <div class="products__item">
-            <div class="products__item-content products__item-content--search">
-              <div class="products_item-content-inner">
-                <h3 class="products__item-title">Search Data</h3>
-                <span class="products__item-desc">
-                  Don’t worry if your data is very large, the Data Warehoue provides a search engine, which is useful
-                  for making it easier to find data effectively saving time.
-                </span>
-                <a class="products__item-link" href="#"><span>Learn more</span></a>
+            <div class="footer__logo">
+              <div class="footer__logo-img">
+                <a class="logo" href="#">
+                  <img src="img/favicon.png" alt="Logo">
+                </a>
+              </div>
+              <div class="footer__logo-title">
+                <h4 id="footer"><a href="#"></a>DataWarehouse</h4>
               </div>
             </div>
-          </div>
-          <div class="products__item">
-            <div class="products__item-content products__item-content--24-hours">
-              <div class="products_item-content-inner">
-                <h3 class="products__item-title">24 Hours Access</h3>
-                <span class="products__item-desc">
-                  Access is given 24 hours a full morning to night and
-                  meet again in the morning, giving you comfort when
-                  you need data when urgent.
-                </span>
-                <a class="products__item-link" href="#"><span>Learn more</span></a>
-              </div>
-            </div>
-          </div>
-          <div class="products__item">
-            <div class="products__item-content products__item-content--print">
-              <div class="products_item-content-inner">
-                <h3 class="products__item-title">Print Out</h3>
-                <span class="products__item-desc">
-                  Print out service gives you convenience if someday
-                  you need print data, just edit it all and just print it.
-                </span>
-                <a class="products__item-link" href="#"><span>Learn more</span></a>
-              </div>
-            </div>
-          </div>
-          <div class="products__item">
-            <div class="products__item-content products__item-content--security">
-              <div class="products_item-content-inner">
-                <h3 class="products__item-title">Security Code</h3>
-                <span class="products__item-desc">
-                  Data Security is one of our best facilities. Allows for your files
-                  to be safer. The file can be secured with a code or password that
-                  you created, so only you can open the file.
-                </span>
-                <a class="products__item-link" href="#"><span>Learn more</span></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
-      <section class="testimonials">
-        <div class="container container__slider">
-          <div class="testimonials__wrapper">
-            <h2 class="testimonials__title">Testimonials</h2>
-            <ul class="slider">
-              <li class="slider__item slider__item--main">
-                <div class="slider__img">
-                  <img src="img/john-fang.png" alt="John Fang">
-                </div>
-                <div class="slider__info">
-                  <h3 class="slider__title">John Fang</h3>
-                  <a class="slider__job" href="#">wordfang.com</a>
-                  <span class="slider__desc">
-                    Suspendisse ultrices at diam lectus nullam.
-                    Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet
-                    nulla.
-                  </span>
-                </div>
+            <address class="address">
+              <span class="address__adr">
+                Warehouse Society, 234 <br>
+                Bahagia Ave Street PRBW 29281
+              </span>
+              <span class="address__contacts">
+                info@warehouse.project <br>
+                1-232-3434 (Main)
+              </span>
+            </address>
+            <small class="small">
+              <span class="small__copy">
+                © Datawarehouse™, 2020. All rights reserved.
+                Company Registration Number: 21479524.
+              </span>
+            </small>
+          </div>
+
+          <div class="socials">
+            <h4 class="socials__title">Social Media</h4>
+            <ul class="socials__list">
+              <li class="socials__item">
+                <a class="socials__link" href="#">
+                  <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <ellipse opacity="0.1" cx="25" cy="25.102" rx="25" ry="24.538" fill="#212353" />
+                    <path
+                      d="M26.37 34.4397V24.7187H29.204L29.5796 21.3688H26.37L26.3748 19.6921C26.3748 18.8184 26.4625 18.3503 27.7878 18.3503H29.5595V15H26.7251C23.3205 15 22.1222 16.6251 22.1222 19.3579V21.3692H20V24.7191H22.1222V34.4397H26.37Z"
+                      fill="white" />
+                  </svg>
+                </a>
               </li>
-              <li class="slider__item">
-                <div class="slider__img">
-                  <img src="img/jeny-doe.png" alt="Jeny Doe">
-                </div>
-                <div class="slider__info">
-                  <h3 class="slider__title">Jeny Doe</h3>
-                  <a class="slider__job" href="#">UX Engineer</a>
-                  <span class="slider__desc">
-                    Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor
-                  </span>
-                </div>
+              <li class="socials__item">
+                <a class="socials__link" href="#">
+                  <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <ellipse opacity="0.1" cx="25" cy="25.1022" rx="25" ry="24.538" fill="#212353" />
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M24.9096 22.4208L24.8699 21.8025C24.7511 20.2 25.7939 18.7364 27.4438 18.1686C28.051 17.9667 29.0805 17.9415 29.7537 18.1181C30.0177 18.1939 30.5193 18.4462 30.8756 18.6733L31.5224 19.0897L32.2352 18.8752C32.6312 18.7616 33.1592 18.5724 33.3967 18.4462C33.6211 18.3326 33.8191 18.2695 33.8191 18.3074C33.8191 18.5219 33.3307 19.2537 32.9216 19.6574C32.3672 20.2253 32.5256 20.2757 33.6475 19.8972C34.3207 19.6827 34.3338 19.6827 34.2019 19.9224C34.1226 20.0486 33.7135 20.4902 33.2779 20.894C32.5387 21.588 32.4992 21.6637 32.4992 22.2441C32.4992 23.1399 32.0504 25.0073 31.6016 26.0294C30.77 27.9473 28.9881 29.9282 27.2062 30.925C24.6984 32.3256 21.3589 32.6789 18.5475 31.8587C17.6103 31.5811 16 30.8745 16 30.7484C16 30.7105 16.4883 30.66 17.0824 30.6475C18.3231 30.6222 19.5638 30.2941 20.6197 29.7137L21.3326 29.31L20.5142 29.045C19.3526 28.6664 18.3099 27.7958 18.0459 26.9757C17.9667 26.7107 17.9931 26.6981 18.7323 26.6981L19.4978 26.6855L18.8511 26.3953C18.0855 26.0294 17.3859 25.4111 17.0427 24.7802C16.7919 24.326 16.4752 23.1778 16.5676 23.0895C16.5939 23.0517 16.8712 23.1273 17.188 23.2282C18.0987 23.5437 18.2175 23.468 17.6895 22.938C16.6995 21.9791 16.396 20.5533 16.8712 19.2032L17.0956 18.5976L17.9667 19.4177C19.7486 21.0706 21.8473 22.0549 24.2496 22.3451L24.9096 22.4208Z"
+                      fill="white" />
+                  </svg>
+                </a>
               </li>
-              <li class="slider__item">
-                <div class="slider__img">
-                  <img src="img/william.png" alt="William">
-                </div>
-                <div class="slider__info">
-                  <h3 class="slider__title">William</h3>
-                  <a class="slider__job" href="#">Web Designer</a>
-                  <span class="slider__desc">
-                    Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor
-                  </span>
-                </div>
+              <li class="socials__item">
+                <a class="socials__link" href="#">
+                  <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <ellipse opacity="0.1" cx="25" cy="25.1022" rx="25" ry="24.538" fill="#212353" />
+                    <path
+                      d="M25.0018 20.6986C22.7316 20.6986 20.9005 22.4364 20.9005 24.5908C20.9005 26.7453 22.7316 28.4831 25.0018 28.4831C27.2719 28.4831 29.1031 26.7453 29.1031 24.5908C29.1031 22.4364 27.2719 20.6986 25.0018 20.6986ZM25.0018 27.1213C23.5347 27.1213 22.3354 25.9865 22.3354 24.5908C22.3354 23.1952 23.5312 22.0603 25.0018 22.0603C26.4724 22.0603 27.6682 23.1952 27.6682 24.5908C27.6682 25.9865 26.4688 27.1213 25.0018 27.1213ZM30.2274 20.5394C30.2274 21.0441 29.7991 21.4472 29.2708 21.4472C28.739 21.4472 28.3142 21.0407 28.3142 20.5394C28.3142 20.038 28.7426 19.6315 29.2708 19.6315C29.7991 19.6315 30.2274 20.038 30.2274 20.5394ZM32.9438 21.4608C32.8831 20.2446 32.5904 19.1674 31.6516 18.2799C30.7165 17.3923 29.5814 17.1146 28.2999 17.0536C26.9793 16.9825 23.0207 16.9825 21.7001 17.0536C20.4222 17.1112 19.2871 17.389 18.3484 18.2765C17.4096 19.164 17.1205 20.2412 17.0562 21.4574C16.9813 22.7107 16.9813 26.4675 17.0562 27.7209C17.1169 28.937 17.4096 30.0142 18.3484 30.9018C19.2871 31.7893 20.4186 32.0671 21.7001 32.128C23.0207 32.1992 26.9793 32.1992 28.2999 32.128C29.5814 32.0705 30.7165 31.7927 31.6516 30.9018C32.5868 30.0142 32.8795 28.937 32.9438 27.7209C33.0187 26.4675 33.0187 22.7141 32.9438 21.4608ZM31.2376 29.0657C30.9592 29.7297 30.4202 30.2412 29.717 30.5088C28.664 30.9052 26.1654 30.8137 25.0018 30.8137C23.8381 30.8137 21.336 30.9018 20.2866 30.5088C19.5869 30.2446 19.048 29.7331 18.766 29.0657C18.3484 28.0664 18.4447 25.6952 18.4447 24.5908C18.4447 23.4865 18.3519 21.1118 18.766 20.1159C19.0444 19.452 19.5834 18.9404 20.2866 18.6728C21.3395 18.2765 23.8381 18.368 25.0018 18.368C26.1654 18.368 28.6676 18.2799 29.717 18.6728C30.4166 18.9371 30.9556 19.4486 31.2376 20.1159C31.6552 21.1152 31.5588 23.4865 31.5588 24.5908C31.5588 25.6952 31.6552 28.0698 31.2376 29.0657Z"
+                      fill="white" />
+                  </svg>
+                </a>
               </li>
-
             </ul>
-            <div class="slider__buttons">
-              <ul class="buttons">
-                <li><a class="buttons__btn buttons__btn--active" href="#"></a></li>
-                <li><a class="buttons__btn" href="#"></a></li>
-                <li><a class="buttons__btn" href="#"></a></li>
-                <li><a class="buttons__btn" href="#"></a></li>
-              </ul>
-              <ul class="arrows">
-                <li><a href="#">
-                    <img class="arrows__l" src="img/slider-arrowL.png" alt="">
-                  </a></li>
-                <li><a href="#">
-                    <img class="arrows__r" src="img/slider-arrowR.png" alt="">
-                  </a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-    </div>
-  </main>
-
-  <footer class="footer">
-    <hr class="footer__line">
-    <div class="container">
-
-      <div class="footer__inner">
-        <div class="footer__info">
-
-          <div class="footer__logo">
-            <div class="footer__logo-img">
-              <a class="logo" href="#">
-                <img src="img/favicon.png" alt="Logo">
-              </a>
-            </div>
-            <div class="footer__logo-title">
-              <h4 id="footer"><a href="#"></a>DataWarehouse</h4>
-            </div>
           </div>
 
-          <address class="address">
-            <span class="address__adr">
-              Warehouse Society, 234 <br>
-              Bahagia Ave Street PRBW 29281
-            </span>
-            <span class="address__contacts">
-              info@warehouse.project <br>
-              1-232-3434 (Main)
-            </span>
-          </address>
-          <small class="small">
-            <span class="small__copy">
-              © Datawarehouse™, 2020. All rights reserved.
-              Company Registration Number: 21479524.
-            </span>
-          </small>
-        </div>
-
-        <div class="socials">
-          <h4 class="socials__title">Social Media</h4>
-          <ul class="socials__list">
-            <li class="socials__item">
-              <a class="socials__link" href="#">
-                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <ellipse opacity="0.1" cx="25" cy="25.102" rx="25" ry="24.538" fill="#212353" />
-                  <path
-                    d="M26.37 34.4397V24.7187H29.204L29.5796 21.3688H26.37L26.3748 19.6921C26.3748 18.8184 26.4625 18.3503 27.7878 18.3503H29.5595V15H26.7251C23.3205 15 22.1222 16.6251 22.1222 19.3579V21.3692H20V24.7191H22.1222V34.4397H26.37Z"
-                    fill="white" />
-                </svg>
-              </a>
-            </li>
-            <li class="socials__item">
-              <a class="socials__link" href="#">
-                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <ellipse opacity="0.1" cx="25" cy="25.1022" rx="25" ry="24.538" fill="#212353" />
-                  <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M24.9096 22.4208L24.8699 21.8025C24.7511 20.2 25.7939 18.7364 27.4438 18.1686C28.051 17.9667 29.0805 17.9415 29.7537 18.1181C30.0177 18.1939 30.5193 18.4462 30.8756 18.6733L31.5224 19.0897L32.2352 18.8752C32.6312 18.7616 33.1592 18.5724 33.3967 18.4462C33.6211 18.3326 33.8191 18.2695 33.8191 18.3074C33.8191 18.5219 33.3307 19.2537 32.9216 19.6574C32.3672 20.2253 32.5256 20.2757 33.6475 19.8972C34.3207 19.6827 34.3338 19.6827 34.2019 19.9224C34.1226 20.0486 33.7135 20.4902 33.2779 20.894C32.5387 21.588 32.4992 21.6637 32.4992 22.2441C32.4992 23.1399 32.0504 25.0073 31.6016 26.0294C30.77 27.9473 28.9881 29.9282 27.2062 30.925C24.6984 32.3256 21.3589 32.6789 18.5475 31.8587C17.6103 31.5811 16 30.8745 16 30.7484C16 30.7105 16.4883 30.66 17.0824 30.6475C18.3231 30.6222 19.5638 30.2941 20.6197 29.7137L21.3326 29.31L20.5142 29.045C19.3526 28.6664 18.3099 27.7958 18.0459 26.9757C17.9667 26.7107 17.9931 26.6981 18.7323 26.6981L19.4978 26.6855L18.8511 26.3953C18.0855 26.0294 17.3859 25.4111 17.0427 24.7802C16.7919 24.326 16.4752 23.1778 16.5676 23.0895C16.5939 23.0517 16.8712 23.1273 17.188 23.2282C18.0987 23.5437 18.2175 23.468 17.6895 22.938C16.6995 21.9791 16.396 20.5533 16.8712 19.2032L17.0956 18.5976L17.9667 19.4177C19.7486 21.0706 21.8473 22.0549 24.2496 22.3451L24.9096 22.4208Z"
-                    fill="white" />
-                </svg>
-              </a>
-            </li>
-            <li class="socials__item">
-              <a class="socials__link" href="#">
-                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <ellipse opacity="0.1" cx="25" cy="25.1022" rx="25" ry="24.538" fill="#212353" />
-                  <path
-                    d="M25.0018 20.6986C22.7316 20.6986 20.9005 22.4364 20.9005 24.5908C20.9005 26.7453 22.7316 28.4831 25.0018 28.4831C27.2719 28.4831 29.1031 26.7453 29.1031 24.5908C29.1031 22.4364 27.2719 20.6986 25.0018 20.6986ZM25.0018 27.1213C23.5347 27.1213 22.3354 25.9865 22.3354 24.5908C22.3354 23.1952 23.5312 22.0603 25.0018 22.0603C26.4724 22.0603 27.6682 23.1952 27.6682 24.5908C27.6682 25.9865 26.4688 27.1213 25.0018 27.1213ZM30.2274 20.5394C30.2274 21.0441 29.7991 21.4472 29.2708 21.4472C28.739 21.4472 28.3142 21.0407 28.3142 20.5394C28.3142 20.038 28.7426 19.6315 29.2708 19.6315C29.7991 19.6315 30.2274 20.038 30.2274 20.5394ZM32.9438 21.4608C32.8831 20.2446 32.5904 19.1674 31.6516 18.2799C30.7165 17.3923 29.5814 17.1146 28.2999 17.0536C26.9793 16.9825 23.0207 16.9825 21.7001 17.0536C20.4222 17.1112 19.2871 17.389 18.3484 18.2765C17.4096 19.164 17.1205 20.2412 17.0562 21.4574C16.9813 22.7107 16.9813 26.4675 17.0562 27.7209C17.1169 28.937 17.4096 30.0142 18.3484 30.9018C19.2871 31.7893 20.4186 32.0671 21.7001 32.128C23.0207 32.1992 26.9793 32.1992 28.2999 32.128C29.5814 32.0705 30.7165 31.7927 31.6516 30.9018C32.5868 30.0142 32.8795 28.937 32.9438 27.7209C33.0187 26.4675 33.0187 22.7141 32.9438 21.4608ZM31.2376 29.0657C30.9592 29.7297 30.4202 30.2412 29.717 30.5088C28.664 30.9052 26.1654 30.8137 25.0018 30.8137C23.8381 30.8137 21.336 30.9018 20.2866 30.5088C19.5869 30.2446 19.048 29.7331 18.766 29.0657C18.3484 28.0664 18.4447 25.6952 18.4447 24.5908C18.4447 23.4865 18.3519 21.1118 18.766 20.1159C19.0444 19.452 19.5834 18.9404 20.2866 18.6728C21.3395 18.2765 23.8381 18.368 25.0018 18.368C26.1654 18.368 28.6676 18.2799 29.717 18.6728C30.4166 18.9371 30.9556 19.4486 31.2376 20.1159C31.6552 21.1152 31.5588 23.4865 31.5588 24.5908C31.5588 25.6952 31.6552 28.0698 31.2376 29.0657Z"
-                    fill="white" />
-                </svg>
-              </a>
-            </li>
-          </ul>
         </div>
 
       </div>
-
-    </div>
-  </footer>
+    </footer>
+  </div>
 </body>
 
 </html>

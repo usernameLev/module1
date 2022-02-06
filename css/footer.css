@@ -98,12 +98,6 @@
 
 
 /* ############ MEDIA ############ */
-@media (max-width: 1250px) {
-  .footer__info {
-    margin-left: 10px;
-  }
-}
-
 @media (max-width: 767px) {
   .footer__line {
     margin-bottom: 100px;
