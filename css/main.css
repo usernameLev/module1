@@ -141,8 +141,8 @@
 }
 
 .bank__content {
-  padding  : 100px 0;
-  margin   : auto 90px auto 80px;
+  padding: 100px 0;
+  margin : auto 90px auto 80px;
 }
 
 .bank__title {
@@ -423,7 +423,7 @@
   }
 
   .bank__content {
-    margin   : auto 20px auto 80px;
+    margin: auto 20px auto 80px;
   }
 }
 
@@ -515,6 +515,7 @@
   .bank__content {
     max-width: initial;
     padding  : 0;
+    margin   : auto;
   }
 
   .bank__title {
