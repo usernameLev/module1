@@ -28,8 +28,9 @@
 <body>
   <div class="wrapper">
     <header class="header">
+<!--   лишний отступ и далее по коду   -->
       <div class="header__container container">
-
+        <!--   лишний отступ и далее по коду   -->
         <a class="logo" href="#">
           <img src="img/logo.svg" alt="logo">
         </a>
@@ -50,14 +51,24 @@
     </header>
 
     <main class="main">
+    <!--  тут  section, а не div   -->
       <div class="main__bg">
-
+        <!--   лишний отступ и далее по коду   -->
         <div class="container">
-
+          <!--   лишний отступ и далее по коду   -->
         <h1 hidden>Warehouse - Save your data storage here.</h1>
 
           <div class="main-top">
             <h2 class="main-top__title">Save your data storage here.</h2>
+            <!--    тут и далее по коду тэг р, а не span
+            вот пример как используется span, слово или пару слов
+            <p class="main-top__desc">
+              Data Warehouse is a data storage area that has been
+              tested for security,<span>so you can store</span> your data here
+              safely but not be afraid of being stolen by others.
+            </p>
+
+            -->
             <span class="main-top__desc">
               Data Warehouse is a data storage area that has been
               tested for security, so you can store your data here
@@ -74,6 +85,7 @@
 
       </div>
       <div class="container">
+        <!--  тут  section, а не div   -->
         <div class="bank">
           <img class="bank__img" src="img/bank.svg" alt="девушка - иллюстрация">
           <div class="bank__content">
@@ -90,7 +102,7 @@
         </div>
 
         <section id="features" class="features">
-
+          <!--    тут можно без __top      -->
           <div class="features__top">
             <h2 class="features__top-title">Features</h2>
             <span class="features__top-desc">
@@ -98,8 +110,9 @@
               Warehouse.
             </span>
           </div>
-
+          <!-- div class="products" это список значит ul -->
           <div class="products">
+            <!--     div class="products__item" тут li       -->
             <div class="products__item">
               <div class="products__item-content products__item-content--search">
                 <div class="products_item-content-inner">
@@ -198,14 +211,23 @@
                 </li>
 
               </ul>
+              <!--     это не buttons это пагинация слайдера     -->
               <div class="slider__buttons">
                 <ul class="buttons">
+                <!--     нет переноса тэгов
+                      <li>
+                        <a class="buttons__btn buttons__btn--active" href="#"></a>
+                      </li>
+                   -->
+                  <!--        использование тэга а тут не уместно, это button        -->
                   <li><a class="buttons__btn buttons__btn--active" href="#"></a></li>
                   <li><a class="buttons__btn" href="#"></a></li>
                   <li><a class="buttons__btn" href="#"></a></li>
                   <li><a class="buttons__btn" href="#"></a></li>
                 </ul>
                 <ul class="arrows">
+                <!--     нет переноса тэгов             -->
+                  <!--        использование тэга а тут не уместно, это button        -->
                   <li><a href="#">
                       <img class="arrows__l" src="img/slider-arrowL.png" alt="стрелка влево">
                     </a></li>
@@ -240,15 +262,22 @@
             </div>
 
             <address class="address">
+            <!--      class="address__adr? - class="address__text        -->
               <span class="address__adr">
+                <!--       перенос с помощью <br> плохая практика, надо делать стилями max-width       -->
                 Warehouse Society, 234 <br>
                 Bahagia Ave Street PRBW 29281
               </span>
+            <!--     почта, телефон задается через тэг а
+                    <a class="address__email" href="mailto:info@warehouse.project">info@warehouse.project</a>
+                    <a href="tel: +74951234567">+7 (495) 123-45-67</a>
+                   -->
               <span class="address__contacts">
                 info@warehouse.project <br>
                 1-232-3434 (Main)
               </span>
             </address>
+            <!--     small как тэг и класс тут не уместен - это блочок с копирайтом, стилизовать надо не тэгами, а стилями    -->
             <small class="small">
               <span class="small__copy">
                 © Datawarehouse™, 2020. All rights reserved.
