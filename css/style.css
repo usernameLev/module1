@@ -1,6 +1,6 @@
-@import 'header.css';
-@import 'main.css';
-@import 'footer.css';
+@import "header.css";
+@import "main.css";
+@import "footer.css";
 
 html {
   height: 100%;
@@ -8,32 +8,51 @@ html {
 }
 
 body {
-  min-width  : 320px;
-  height     : 100%;
-  font-family: 'Ubuntu', sans-serif;
-  font-size  : 18px;
+  min-width: 320px;
+  height: 100%;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
   font-weight: 500;
-  color      : #4B5D68;
+  color: var(--main-color);
 }
 
 .wrapper {
-  display       : flex;
+  display: flex;
   flex-direction: column;
-  min-height    : 100%;
-  overflow      : hidden;
+  min-height: 100%;
+  overflow: hidden;
 }
 
 .container {
-  max-width : 1120px;
+  max-width: 1120px;
   box-sizing: content-box;
-  padding   : 0 10px;
-  margin    : 0 auto;
+  padding: 0 10px;
+  margin: 0 auto;
 }
 
 .main {
   flex: 1 1 auto;
 }
 
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 :root {
+  --main-color: #4b5d68;
   --title-color: #212353;
+  --bg-color: #9c69e2;
+  --white-color: #ffffff;
+  --coral-color: #fde8f4;
+  --purple-color: #f063b8;
+  --search-item: #f0faf8;
+  --hours-24-item: #f5f0fc;
+  --print-item: #feeff8;
+  --security-item: #eaf5fb;
+  --box-shadow: rgba(156, 105, 226, 0.3);
+  --filter-shadow: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
 }

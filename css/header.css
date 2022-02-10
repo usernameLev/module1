@@ -1,20 +1,20 @@
 .header {
-  width   : 100%;
+  width: 100%;
   position: absolute;
-  top     : 0;
-  left    : 0;
-  z-index : 50;
+  top: 0;
+  left: 0;
+  z-index: 50;
 }
 
 .header__container {
-  display    : flex;
-  min-height : 100px;
+  display: flex;
+  min-height: 100px;
   align-items: center;
 }
 
 .header__menu {
   padding: 5px 0;
-  margin : 0 0 0 120px;
+  margin: 0 0 0 120px;
 }
 
 .logo {
@@ -22,13 +22,13 @@
 }
 
 .header__top {
-  display      : flex;
-  align-items  : center;
+  display: flex;
+  align-items: center;
   margin-bottom: 150px;
 }
 
 .menu__list {
-  display  : flex;
+  display: flex;
   flex-wrap: wrap;
 }
 
@@ -38,28 +38,20 @@
 
 .menu__list-link {
   line-height: 160%;
-  color      : #4B5D68;
-  transition : color .3s;
+  color: var(--main-color);
+  transition: color 0.3s;
 }
 
 .menu__list-link:hover:not(.menu__list-link--active) {
-  color: #9C69E2;
+  color: var(--bg-color);
 }
 
 .menu__list-link--active {
-  color: #212353;
+  color: var(--title-color);
 }
-
-
-
-
-
-
-
 
 /* ############ MEDIA ############ */
 @media (max-width: 1250px) {
-
   .main-top__bg {
     width: 50%;
   }
@@ -92,6 +84,10 @@
 @media (max-width: 580px) {
   .header__menu {
     margin: 0 0 0 20px;
+  }
+
+  .menu__list {
+    padding-left: 0;
   }
 
   .menu__list-item:not(:last-child) {
